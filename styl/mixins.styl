@@ -1,7 +1,7 @@
 // Mixins
 // --------------------------
 fa-icon-rotate(degrees, rotation)
-  filter progid:DXImageTransform.Microsoft.BasicImage(rotation)
+  filter 'progid:DXImageTransform.Microsoft.BasicImage(%s)' % (rotation)
   -webkit-transform rotate(degrees)
   -moz-transform rotate(degrees)
   -ms-transform rotate(degrees)
@@ -9,10 +9,9 @@ fa-icon-rotate(degrees, rotation)
   transform rotate(degrees)
 
 fa-icon-flip(horiz, vert, rotation)
-  filter progid:DXImageTransform.Microsoft.BasicImage(rotation, 1)
+  filter 'progid:DXImageTransform.Microsoft.BasicImage(%s, 1)' % (rotation)
   -webkit-transform scale(horiz, vert)
   -moz-transform scale(horiz, vert)
   -ms-transform scale(horiz, vert)
   -o-transform scale(horiz, vert)
   transform scale(horiz, vert)
-
