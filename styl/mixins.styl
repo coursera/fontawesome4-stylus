@@ -1,15 +1,14 @@
-// Mixins
-// --------------------------
+lesscss-percentage(n)
+  (n * 100)%
 fa-icon-rotate(degrees, rotation)
-  filter 'progid:DXImageTransform.Microsoft.BasicImage(%s)' % (rotation)
+  filter progid:DXImageTransform.Microsoft.BasicImage(rotation)
   -webkit-transform rotate(degrees)
   -moz-transform rotate(degrees)
   -ms-transform rotate(degrees)
   -o-transform rotate(degrees)
   transform rotate(degrees)
-
 fa-icon-flip(horiz, vert, rotation)
-  filter 'progid:DXImageTransform.Microsoft.BasicImage(%s, 1)' % (rotation)
+  filter progid:DXImageTransform.Microsoft.BasicImage(rotation, 1)
   -webkit-transform scale(horiz, vert)
   -moz-transform scale(horiz, vert)
   -ms-transform scale(horiz, vert)

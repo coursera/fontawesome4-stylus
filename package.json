@@ -1,12 +1,12 @@
 {
   "name": "fontawesome4-stylus",
   "description": "FontAwesome4 ported to stylus",
-  "keywords": ["stylus", "fontawesome", "fontawesome4.0.3", "css"],
+  "keywords": ["stylus", "fontawesome", "fontawesome4.1", "css"],
   "repository": {
     "type": "git",
     "url": "git://github.com/coursera/fontawesome4-stylus.git"
   },
   "author": "@eleith",
   "main" : "./styl",
-  "version": "4.0.3"
+  "version": "4.1"
 }
