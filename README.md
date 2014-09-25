@@ -1,6 +1,6 @@
-# FontAwesome 4.1 Stylus
+# FontAwesome 4.2 Stylus
 
-A basic port of FontAwesome to stylus, specifically FontAwesome 4.1. We only include the .styl files and fonts here. Please obtain the css / less from the original source if you need those (https://github.com/FortAwesome/Font-Awesome). Note that you need Stylus version 0.42.3 or higher.
+A basic port of FontAwesome to stylus, specifically FontAwesome 4.2. We only include the .styl files and fonts here. Please obtain the css / less from the original source if you need those (https://github.com/FortAwesome/Font-Awesome). Note that you need Stylus version 0.42.3 or higher.
 
 To learn more about using FontAwesome see the docs at http://fontawesome.io/
 

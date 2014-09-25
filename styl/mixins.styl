@@ -1,14 +1,23 @@
+fa-icon()
+  display inline-block
+  font normal normal normal (14px / 1) FontAwesome
+  font-size inherit
+  text-rendering auto
+  -webkit-font-smoothing antialiased
+  -moz-osx-font-smoothing grayscale
+
+.fa-icon
+  fa-icon()
+
 fa-icon-rotate(degrees, rotation)
   filter 'progid:DXImageTransform.Microsoft.BasicImage(%s)' % (rotation)
   -webkit-transform rotate(degrees)
-  -moz-transform rotate(degrees)
   -ms-transform rotate(degrees)
-  -o-transform rotate(degrees)
   transform rotate(degrees)
+
 fa-icon-flip(horiz, vert, rotation)
   filter 'progid:DXImageTransform.Microsoft.BasicImage(%s, 1)' % (rotation)
   -webkit-transform scale(horiz, vert)
-  -moz-transform scale(horiz, vert)
   -ms-transform scale(horiz, vert)
-  -o-transform scale(horiz, vert)
   transform scale(horiz, vert)
+
